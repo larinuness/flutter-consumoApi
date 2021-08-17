@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextButton(onPressed: () => Get.toNamed('/http'), child: Text('HTTP')),
-            TextButton(onPressed: () {}, child: Text('DIO')),
+            TextButton(onPressed: () => Get.toNamed('/dio'), child: Text('DIO')),
             TextButton(onPressed: () {}, child: Text('GetConnect')),
           ],
         ),

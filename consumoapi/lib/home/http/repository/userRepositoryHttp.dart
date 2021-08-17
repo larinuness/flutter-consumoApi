@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:consumoapi/model/userModel.dart';
 import 'package:consumoapi/repository/interfaceUserRepository.dart';
 //http é um apelido pra saber do qual pacote está vindo

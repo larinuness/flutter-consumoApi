@@ -1,5 +1,5 @@
 import 'package:consumoapi/home/http/httpController.dart';
-import 'package:consumoapi/home/http/repository/userRepository.dart';
+import 'package:consumoapi/home/http/repository/userRepositoryHttp.dart';
 import 'package:consumoapi/repository/interfaceUserRepository.dart';
 import 'package:get/get.dart';
 

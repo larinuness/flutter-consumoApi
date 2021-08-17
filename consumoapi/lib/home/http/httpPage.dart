@@ -30,7 +30,7 @@ class HttpPage extends GetView<HttpController> {
                 children: [
                   Text(error!),
                   TextButton(
-                      onPressed: () => controller..findUsers(),
+                      onPressed: () => controller.findUsers(),
                       child: Text('Tentar novamente')
                   )
                 ]
